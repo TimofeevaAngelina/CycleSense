@@ -1,0 +1,6 @@
+{
+  "model_name": "mood_score_daily_gru_any_day",
+  "target": "mood_score",
+  "mean": 6.601253369049391,
+  "scale": 1.4884690810623076
+}

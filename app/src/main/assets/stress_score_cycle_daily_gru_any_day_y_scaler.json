@@ -1,0 +1,6 @@
+{
+  "model_name": "stress_score_cycle_daily_gru_any_day",
+  "target": "stress_score_cycle",
+  "mean": 5.450286885923575,
+  "scale": 1.261328037736228
+}

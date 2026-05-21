@@ -1,0 +1,25 @@
+{
+  "model_name": "phase_gru_v2_strict",
+  "target_columns": [
+    "stress_score_cycle_menstrual_mean_next",
+    "stress_score_cycle_follicular_mean_next",
+    "stress_score_cycle_ovulatory_mean_next",
+    "stress_score_cycle_luteal_mean_next",
+    "energy_level_menstrual_mean_next",
+    "energy_level_follicular_mean_next",
+    "energy_level_ovulatory_mean_next",
+    "energy_level_luteal_mean_next",
+    "mood_score_menstrual_mean_next",
+    "mood_score_follicular_mean_next",
+    "mood_score_ovulatory_mean_next",
+    "mood_score_luteal_mean_next",
+    "concentration_score_menstrual_mean_next",
+    "concentration_score_follicular_mean_next",
+    "concentration_score_ovulatory_mean_next",
+    "concentration_score_luteal_mean_next",
+    "pain_level_menstrual_mean_next",
+    "pain_level_follicular_mean_next",
+    "pain_level_ovulatory_mean_next",
+    "pain_level_luteal_mean_next"
+  ]
+}

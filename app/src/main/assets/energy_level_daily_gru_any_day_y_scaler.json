@@ -1,0 +1,6 @@
+{
+  "model_name": "energy_level_daily_gru_any_day",
+  "target": "energy_level",
+  "mean": 5.722902921771913,
+  "scale": 1.7238758817487256
+}

@@ -1,0 +1,6 @@
+{
+  "model_name": "concentration_score_daily_gru_any_day",
+  "target": "concentration_score",
+  "mean": 6.923425434462688,
+  "scale": 1.6031141832470788
+}

@@ -1,0 +1,90 @@
+{
+  "model_name": "stress_score_cycle_daily_gru_any_day",
+  "target": "stress_score_cycle",
+  "features": [
+    {
+      "name": "steps",
+      "median_fill_value": 7472.0,
+      "mean": 7663.337852980726,
+      "scale": 2124.2596648956496
+    },
+    {
+      "name": "heart_rate",
+      "median_fill_value": 58.0,
+      "mean": 59.1747825775876,
+      "scale": 10.503562591529352
+    },
+    {
+      "name": "rmssd",
+      "median_fill_value": 70.0,
+      "mean": 72.87239351704322,
+      "scale": 31.42104896875978
+    },
+    {
+      "name": "sleep_hours",
+      "median_fill_value": 7.0,
+      "mean": 6.992365780956771,
+      "scale": 1.3279900404746074
+    },
+    {
+      "name": "stress_score_cycle",
+      "median_fill_value": 5.0,
+      "mean": 5.437285223367698,
+      "scale": 1.2328261728261969
+    },
+    {
+      "name": "energy_level",
+      "median_fill_value": 6.0,
+      "mean": 5.742604213357239,
+      "scale": 1.6771738753219152
+    },
+    {
+      "name": "mood_score",
+      "median_fill_value": 7.0,
+      "mean": 6.619864037053638,
+      "scale": 1.4591959473732026
+    },
+    {
+      "name": "concentration_score",
+      "median_fill_value": 7.0,
+      "mean": 6.928843567906768,
+      "scale": 1.5564655638430278
+    },
+    {
+      "name": "pain_level",
+      "median_fill_value": 5.0,
+      "mean": 5.138652323322875,
+      "scale": 1.4061257757715573
+    },
+    {
+      "name": "day_in_cycle_norm",
+      "median_fill_value": 0.517241358757019,
+      "mean": 0.5169953691242125,
+      "scale": 0.28851356113274423
+    },
+    {
+      "name": "phase_menstrual",
+      "median_fill_value": 0.0,
+      "mean": 0.18030031376064545,
+      "scale": 0.3844373949272602
+    },
+    {
+      "name": "phase_follicular",
+      "median_fill_value": 0.0,
+      "mean": 0.3061407440609592,
+      "scale": 0.4608889116552507
+    },
+    {
+      "name": "phase_ovulatory",
+      "median_fill_value": 0.0,
+      "mean": 0.10193485731361124,
+      "scale": 0.3025626252167722
+    },
+    {
+      "name": "phase_luteal",
+      "median_fill_value": 0.0,
+      "mean": 0.4116240848647841,
+      "scale": 0.49212772490890316
+    }
+  ]
+}

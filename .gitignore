@@ -1,0 +1,39 @@
+# Android Studio / IntelliJ IDEA
+*.iml
+.idea/
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Kotlin / IDE caches
+.kotlin/
+
+# Local configuration
+local.properties
+/local.properties
+
+# Android generated files
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Build artifacts
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Logs and crash dumps
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# OS files
+Thumbs.db
+
+# Firebase configuration
+app/google-services.json

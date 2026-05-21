@@ -1,0 +1,33 @@
+package com.timofeeva.cyclesense
+
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxScope
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+
+private val DefaultMaxContentWidth = 560.dp
+
+@Composable
+fun AdaptiveScreenContainer(
+    modifier: Modifier = Modifier,
+    maxWidth: Dp = DefaultMaxContentWidth,
+    content: @Composable BoxScope.() -> Unit
+) {
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.TopCenter
+    ) {
+        Box(
+            modifier = Modifier
+                .widthIn(max = maxWidth)
+                .fillMaxHeight(),
+            content = content
+        )
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "model_name": "stress_score_cycle_daily_gru_any_day",
+  "model_type": "daily_gru_normalized_next3days_any_day",
+  "requires_select_tf_ops": true,
+  "target": "stress_score_cycle",
+  "seq_cycles": 2,
+  "norm_cycle_len": 28,
+  "forecast_days": 3,
+  "use_target_history_as_input": true,
+  "supports_cross_cycle_forecast": true,
+  "n_input_features": 14,
+  "input_features": [
+    "steps",
+    "heart_rate",
+    "rmssd",
+    "sleep_hours",
+    "stress_score_cycle",
+    "energy_level",
+    "mood_score",
+    "concentration_score",
+    "pain_level",
+    "day_in_cycle_norm",
+    "phase_menstrual",
+    "phase_follicular",
+    "phase_ovulatory",
+    "phase_luteal"
+  ],
+  "input_tensor_shape": [
+    null,
+    56,
+    14
+  ],
+  "output_tensor_shape": [
+    null,
+    3
+  ]
+}

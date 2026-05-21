@@ -1,0 +1,105 @@
+{
+  "model_name": "phase_gru_v2_strict",
+  "targets": [
+    {
+      "name": "stress_score_cycle_menstrual_mean_next",
+      "mean": 5.559007634825379,
+      "scale": 0.8902168982510655
+    },
+    {
+      "name": "stress_score_cycle_follicular_mean_next",
+      "mean": 5.113946683534229,
+      "scale": 0.8791465155211717
+    },
+    {
+      "name": "stress_score_cycle_ovulatory_mean_next",
+      "mean": 5.112366416072118,
+      "scale": 0.957999078799851
+    },
+    {
+      "name": "stress_score_cycle_luteal_mean_next",
+      "mean": 5.919081209270098,
+      "scale": 0.9036013008923383
+    },
+    {
+      "name": "energy_level_menstrual_mean_next",
+      "mean": 5.728559308379661,
+      "scale": 1.2598472877841462
+    },
+    {
+      "name": "energy_level_follicular_mean_next",
+      "mean": 6.2890105152858125,
+      "scale": 1.1796601729635519
+    },
+    {
+      "name": "energy_level_ovulatory_mean_next",
+      "mean": 6.493944016667723,
+      "scale": 1.2621382487922497
+    },
+    {
+      "name": "energy_level_luteal_mean_next",
+      "mean": 5.22704497894258,
+      "scale": 1.268881663359681
+    },
+    {
+      "name": "mood_score_menstrual_mean_next",
+      "mean": 6.4994644328838085,
+      "scale": 1.118399374350731
+    },
+    {
+      "name": "mood_score_follicular_mean_next",
+      "mean": 6.843199414333315,
+      "scale": 1.0269993754370363
+    },
+    {
+      "name": "mood_score_ovulatory_mean_next",
+      "mean": 7.0087022763172175,
+      "scale": 1.1093452530087415
+    },
+    {
+      "name": "mood_score_luteal_mean_next",
+      "mean": 6.199512701908141,
+      "scale": 1.0579143151884163
+    },
+    {
+      "name": "concentration_score_menstrual_mean_next",
+      "mean": 6.734300251225479,
+      "scale": 1.221597028938039
+    },
+    {
+      "name": "concentration_score_follicular_mean_next",
+      "mean": 7.084696330004976,
+      "scale": 1.1785237185757764
+    },
+    {
+      "name": "concentration_score_ovulatory_mean_next",
+      "mean": 7.211501254744202,
+      "scale": 1.1924173827515208
+    },
+    {
+      "name": "concentration_score_luteal_mean_next",
+      "mean": 6.415339060048111,
+      "scale": 1.1588839899483472
+    },
+    {
+      "name": "pain_level_menstrual_mean_next",
+      "mean": 5.645426505212566,
+      "scale": 1.1854795165458747
+    },
+    {
+      "name": "pain_level_follicular_mean_next",
+      "mean": 4.642364633902338,
+      "scale": 1.0274444632486697
+    },
+    {
+      "name": "pain_level_ovulatory_mean_next",
+      "mean": 4.695725196918459,
+      "scale": 1.1366835773263404
+    },
+    {
+      "name": "pain_level_luteal_mean_next",
+      "mean": 5.411935244261763,
+      "scale": 1.101557121377041
+    }
+  ]
+}
